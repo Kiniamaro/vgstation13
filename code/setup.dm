@@ -569,7 +569,7 @@ var/list/liftable_structures = list(\
 #define INVISIBILITY_LEVEL_TWO 45	//Used by some other stuff in code. It's really poorly organized.
 
 #define INVISIBILITY_OBSERVER 60
-#define SEE_INVISIBLE_OBSERVER 60
+#define SEE_INVISIBLE_OBSERVER 61 // fix so that ghosts can see other ghosts when toggle_darkness is active
 
 #define INVISIBILITY_MAXIMUM 100
 
